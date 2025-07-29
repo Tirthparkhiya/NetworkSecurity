@@ -12,6 +12,9 @@ TRAIN_FILE_NAME:str='train.csv'
 TEST_FILE_NAME:str='test.csv'
 SCHEMA_FILE_PATH=os.path.join("data_schema","schema.yaml")
 
+SAVED_MODEL_DIR=os.path.join("saved_models")
+MODEL_FILE_NAME="model.pkl"
+
 DATA_INGESTION_COLLECTION_NAME:str='NetworkData'
 DATA_INGESTION_DATABASE_NAME:str='TirthAI'
 DATA_INGESTION_DIR_NAME:str='data_ingestion'
@@ -36,3 +39,9 @@ DATA_TRANSFORMATION_IMPUTER_PARAMS:dict={
     "n_neighbors":3,
     #"weight":"uniform"
 }
+
+MODEL_TRAINER_DIR_NAME:str="model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR:str="trained_model"
+MODEL_TRAINER_TRAINED_MODEL_NAME:str="model.pkl"
+MODEL_TRAINER_EXPECTED_SCORE:float=0.6
+MODEL_TRAINER_OVERFITTING_UNDERFITTING_THRESHOLD:float=0.5
