@@ -1,0 +1,10 @@
+artifact_location: file:///G:/tirth/data%20science/Projects/website%20fake%20detection/mlruns/0/models/m-b71026fd6eb14f7c812d0c85bf54882f/artifacts
+creation_timestamp: 1754639601047
+experiment_id: '0'
+last_updated_timestamp: 1754639619915
+model_id: m-b71026fd6eb14f7c812d0c85bf54882f
+model_type: null
+name: model
+source_run_id: 29cac83ddbf7414cbefc87859160aeec
+status: 2
+status_message: null

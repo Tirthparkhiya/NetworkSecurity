@@ -7,5 +7,6 @@ scikit-learn
 PyYAML
 pyaml
 mlflow
-
+fastapi
+uvicorn
 #-e .

@@ -1,0 +1,22 @@
+artifact_path: file:///G:/tirth/data%20science/Projects/website%20fake%20detection/mlruns/0/models/m-e59b112b3af14ea88ef4952e1776a486/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.4
+model_id: m-e59b112b3af14ea88ef4952e1776a486
+model_size_bytes: 632179
+model_uuid: m-e59b112b3af14ea88ef4952e1776a486
+prompts: null
+run_id: d2d11584bcaa4cd583d069a72f9c7408
+utc_time_created: '2025-07-29 17:42:51.790861'
